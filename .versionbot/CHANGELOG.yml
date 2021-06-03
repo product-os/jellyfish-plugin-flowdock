@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove unnecessary catch-uncommitted
+      hash: 0c17252d3b9bcf5fe6d60ce9d78e0139521c6d29
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.1
+  date: 2021-06-03T00:11:25.319Z
+- commits:
     - subject: 'Add code, convert to TypeScript'
       hash: c43f794ddc8fa85ec2691c1222a9eaf5bc29fd6e
       body: ''
