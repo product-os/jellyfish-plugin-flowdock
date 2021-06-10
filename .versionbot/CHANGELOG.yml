@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'Optimize docker files, remove Makefile'
+      hash: 7d14f04a9d7b5613b21e98c1fc368664b25010b3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.18
+  date: 2021-06-10T23:40:41.930Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-action-library to v13'
       hash: cebb12792126c2a1fe30fe7942daff292d187794
       body: |
