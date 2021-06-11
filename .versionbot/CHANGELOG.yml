@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.147'
+      hash: 95a7e62e84f2910c80fd811d9f253d3598d19e19
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.19
+  date: 2021-06-11T07:04:40.510Z
+- commits:
     - subject: 'Optimize docker files, remove Makefile'
       hash: 7d14f04a9d7b5613b21e98c1fc368664b25010b3
       body: ''
