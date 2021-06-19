@@ -70,7 +70,7 @@
     "rimraf": "^3.0.2",
     "simple-git-hooks": "^2.4.1",
     "ts-jest": "^27.0.3",
-    "typedoc": "^0.20.36"
+    "typedoc": "^0.21.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
