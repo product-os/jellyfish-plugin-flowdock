@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.31 - 2021-06-19
+
+* patch: Update dependency typedoc to ^0.21.0 [Renovate Bot]
+
 ## 1.0.30 - 2021-06-18
 
 * patch: Update dependency @balena/ci-task-runner to ^0.2.165 [Renovate Bot]

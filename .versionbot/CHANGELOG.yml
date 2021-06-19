@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency typedoc to ^0.21.0'
+      hash: 45851983a9b1a071181d23e1715b1656d726a1c8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.31
+  date: 2021-06-19T00:27:48.307Z
+- commits:
     - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.2.165'
       hash: f2eb8b8547fa508302b343cb9d072b27057defda
       body: ''
