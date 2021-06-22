@@ -4,6 +4,7 @@
     "type": "thread@1.0.0",
     "version": "1.0.0",
     "active": true,
+    "loop": null,
     "tags": [],
     "requires": [],
     "capabilities": [],
@@ -22,6 +23,7 @@
       "type": "create@1.0.0",
       "version": "1.0.0",
       "active": true,
+      "loop": null,
       "tags": [],
       "requires": [],
       "capabilities": [],
@@ -55,6 +57,7 @@
       "type": "whisper@1.0.0",
       "version": "1.0.0",
       "active": true,
+      "loop": null,
       "tags": [
         "hello"
       ],
