@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.159'
+      hash: 10e5803847ef267e0c2e15dbb0e542ab7f2eef2a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.38
+  date: 2021-06-22T07:14:31.752Z
+- commits:
     - subject: 'patch: Update dependency @balena/ci-task-runner to ^0.3.1'
       hash: b1ac738c30f9408914748a002516296bea1ac15e
       body: |
