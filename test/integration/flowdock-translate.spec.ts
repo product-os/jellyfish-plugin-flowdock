@@ -8,7 +8,6 @@ import ActionLibrary from '@balena/jellyfish-action-library';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
 import { FlowdockPlugin } from '../../lib';
-import FlowdockIntegration from '../../lib/integrations';
 import webhooks from './webhooks/flowdock';
 
 // tslint:disable-next-line: no-var-requires
@@ -28,7 +27,6 @@ syncIntegrationScenario.run(
 		basePath: __dirname,
 		plugins: [ActionLibrary, DefaultPlugin, FlowdockPlugin],
 		cards: ['thread', 'whisper', 'message'],
-		integration: FlowdockIntegration,
 		scenarios: webhooks,
 		baseUrl: 'https://api.flowdock.com',
 		stubRegex: /.*/,
