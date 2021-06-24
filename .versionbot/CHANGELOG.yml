@@ -1,4 +1,27 @@
 - commits:
+    - subject: Add JF peer dependencies
+      hash: 0e05551eb4931d10464d74bd0b00426f267225d3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update test-harness call
+      hash: 2adb7aa5278efbaf5656fcdfa7576b7bd43a3e58
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.45
+  date: 2021-06-24T03:06:50.033Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.163'
       hash: ebf3c9deb32473523ef998090ab60465aa70876c
       body: ''
