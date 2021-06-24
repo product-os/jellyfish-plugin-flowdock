@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.46 - 2021-06-24
+
+* Bump jellyfish-core dev dependency [Graham McCulloch]
+* Fix test expected results [Graham McCulloch]
+
 ## 1.0.45 - 2021-06-24
 
 * Add JF peer dependencies [Josh Bowling]
