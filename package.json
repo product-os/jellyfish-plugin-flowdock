@@ -53,11 +53,11 @@
   "devDependencies": {
     "@balena/ci-task-runner": "^0.3.1",
     "@balena/jellycheck": "^0.1.1",
-    "@balena/jellyfish-action-library": "^14.0.1",
-    "@balena/jellyfish-config": "^1.2.5",
-    "@balena/jellyfish-environment": "^4.1.24",
-    "@balena/jellyfish-plugin-default": "^15.0.2",
-    "@balena/jellyfish-test-harness": "^4.0.0",
+    "@balena/jellyfish-action-library": "^14.0.7",
+    "@balena/jellyfish-config": "^1.3.3",
+    "@balena/jellyfish-environment": "^4.2.8",
+    "@balena/jellyfish-plugin-default": "^15.0.7",
+    "@balena/jellyfish-test-harness": "^4.0.1",
     "@balena/lint": "^6.1.1",
     "@types/bluebird": "^3.5.35",
     "@types/jest": "^26.0.23",
@@ -73,9 +73,9 @@
     "typedoc": "^0.21.0"
   },
   "peerDependencies": {
-    "@balena/jellyfish-action-library": "^14.0.1",
-    "@balena/jellyfish-environment": "^4.1.24",
-    "@balena/jellyfish-plugin-default": "^15.0.2"
+    "@balena/jellyfish-action-library": "^14.0.7",
+    "@balena/jellyfish-environment": "^4.2.8",
+    "@balena/jellyfish-plugin-default": "^15.0.7"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
