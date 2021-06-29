@@ -4,6 +4,13 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.47 - 2021-06-29
+
+* patch: Update internal-patch [Renovate Bot]
+* Remove package-lock.json from Dockerfile [Josh Bowling]
+* Bump node engines specification [Josh Bowling]
+* Remove package-lock.json [Josh Bowling]
+
 ## 1.0.46 - 2021-06-24
 
 * Bump jellyfish-core dev dependency [Graham McCulloch]

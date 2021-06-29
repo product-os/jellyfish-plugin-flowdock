@@ -1,4 +1,45 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: 0e6d0858ff7beb73323a0559af34a6c4d728bd1b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Remove package-lock.json from Dockerfile
+      hash: a6b385f775ece5333c53946c43b63706561f2465
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Bump node engines specification
+      hash: 2a2f016c5f9d85b2a74d34a1a94d6007eb256fa8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Remove package-lock.json
+      hash: 16de58c58657e7f20286ae985c3a07050afbd373
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.47
+  date: 2021-06-29T08:47:56.573Z
+- commits:
     - subject: Bump jellyfish-core dev dependency
       hash: bddada4e9445235ba8ac46b4d8045cba1f28c188
       body: ''
