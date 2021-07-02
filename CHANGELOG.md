@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.54 - 2021-07-02
+
+* Replace ci-task-runner with go-task [Josh Bowling]
+
 ## 1.0.53 - 2021-06-30
 
 * patch: Update dependency @balena/jellyfish-plugin-default to v16 [Renovate Bot]

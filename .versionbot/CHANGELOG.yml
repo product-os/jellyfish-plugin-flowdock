@@ -1,4 +1,17 @@
 - commits:
+    - subject: Replace ci-task-runner with go-task
+      hash: fd32beddecf3c45a75fa368d8ec41d8d0e3be0dc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.54
+  date: 2021-07-02T03:07:00.256Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-default to v16'
       hash: 209932593b53ffb30ef6c40f5a9b8bad5e44e35a
       body: |
