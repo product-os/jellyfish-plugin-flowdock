@@ -69,7 +69,7 @@
     "rimraf": "^3.0.2",
     "simple-git-hooks": "^2.5.1",
     "ts-jest": "^27.0.3",
-    "typedoc": "^0.21.2"
+    "typedoc": "^0.21.3"
   },
   "peerDependencies": {
     "@balena/jellyfish-action-library": "^15.0.7",
