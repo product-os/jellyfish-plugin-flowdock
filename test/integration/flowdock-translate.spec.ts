@@ -6,12 +6,10 @@
 
 import ActionLibrary from '@balena/jellyfish-action-library';
 import { defaultEnvironment } from '@balena/jellyfish-environment';
+import { DefaultPlugin } from '@balena/jellyfish-plugin-default';
 import { syncIntegrationScenario } from '@balena/jellyfish-test-harness';
 import { FlowdockPlugin } from '../../lib';
 import webhooks from './webhooks/flowdock';
-
-// tslint:disable-next-line: no-var-requires
-const DefaultPlugin = require('@balena/jellyfish-plugin-default');
 
 const TOKEN = defaultEnvironment.integration.flowdock;
 
