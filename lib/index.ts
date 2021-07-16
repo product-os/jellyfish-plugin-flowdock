@@ -24,7 +24,7 @@ export class FlowdockPlugin extends JellyfishPluginBase {
 				},
 				{
 					slug: 'jellyfish-plugin-default',
-					version: '>=11.x',
+					version: '>=19.x',
 				},
 			],
 		});
