@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove whitesource config
+      hash: 092c656cf594a161b11d9b84a0fb093aeab9c3cb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.79
+  date: 2021-07-17T00:20:11.639Z
+- commits:
     - subject: Bump jellyfish-plugin-default to v19.0.0
       hash: d49309cd8c517ce48acd3ecaa2ed1747a651de76
       body: ''

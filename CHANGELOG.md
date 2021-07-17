@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.79 - 2021-07-17
+
+* Remove whitesource config [Josh Bowling]
+
 ## 1.0.78 - 2021-07-16
 
 * Bump jellyfish-plugin-default to v19.0.0 [Josh Bowling]
