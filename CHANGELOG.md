@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.80 - 2021-07-17
+
+* patch: Update external-non-major [Renovate Bot]
+
 ## 1.0.79 - 2021-07-17
 
 * Remove whitesource config [Josh Bowling]
