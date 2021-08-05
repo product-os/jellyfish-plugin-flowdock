@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update test command in README
+      hash: ecad7fee21099ca494373da44d67af0bc1f22959
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: use balena convention for npm script names
+      hash: 9c9b676daac8e5bb4a87efd81f173d12295f851c
+      body: |
+        i.e. base-cmd:sub-cmd
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 1.0.98
+  date: 2021-08-05T00:16:42.431Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.211'
       hash: 50b2edef59bbbace8145fb7cc9fb896cdf76c91e
       body: ''
