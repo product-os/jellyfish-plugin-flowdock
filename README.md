@@ -30,5 +30,5 @@ Unit tests can be easily run with the command `npm test`.
 The integration tests require a postgres DB and redis server. The simplest way to run the tests locally is with docker-compose.
 
 ```
-docker-compose -f docker-compose.test.yml -f docker-compose.yml up --build --exit-code-from=sut
+npm run test:compose
 ```
