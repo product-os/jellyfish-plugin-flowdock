@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.214'
+      hash: 37d306ccb21c4cf00768e7f2abe9ee78cae7725f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.103
+  date: 2021-08-06T15:14:00.911Z
+- commits:
     - subject: 'Add compose up command, more test docs'
       hash: b95ed996938941b05c66e1caff39c88201c01447
       body: ''
