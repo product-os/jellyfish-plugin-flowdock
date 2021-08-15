@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.111 - 2021-08-15
+
+* patch: Update dependency @balena/jellyfish-config to ^1.4.8 [Renovate Bot]
+
 ## 1.0.110 - 2021-08-11
 
 * Only disable internal patch bumps [Josh Bowling]
