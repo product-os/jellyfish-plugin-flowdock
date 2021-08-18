@@ -47,7 +47,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-plugin-base": "^2.1.224",
+    "@balena/jellyfish-plugin-base": "^2.1.225",
     "bluebird": "^3.7.2",
     "lodash": "^4.17.21",
     "lru-cache": "^6.0.0"
