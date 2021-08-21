@@ -69,9 +69,9 @@
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
     "rimraf": "^3.0.2",
-    "simple-git-hooks": "^2.5.1",
-    "ts-jest": "^27.0.4",
-    "typedoc": "^0.21.5"
+    "simple-git-hooks": "^2.6.1",
+    "ts-jest": "^27.0.5",
+    "typedoc": "^0.21.6"
   },
   "peerDependencies": {
     "@balena/jellyfish-action-library": "^15.1.2",
