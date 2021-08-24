@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add github secrets to gitignore
+      hash: 98c98e1964500041e4c7908f80afb1c70e1274fc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 2af4dd53f0ef3921f3e43ebdbecb4190596b2f81
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.128
+  date: 2021-08-24T05:58:31.289Z
+- commits:
     - subject: Update files to use secrets
       hash: fafc2c106202d47400aa2b18fcab9906364454b8
       body: ''
