@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.131 - 2021-09-04
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.235 [Renovate Bot]
+
 ## 1.0.130 - 2021-08-31
 
 * Ignore decrypted Discourse secrets [Josh Bowling]
