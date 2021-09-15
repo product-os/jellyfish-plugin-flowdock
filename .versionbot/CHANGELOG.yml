@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: f35df9231315d37c0ff674ed6d63051738621fa6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.142
+  date: 2021-09-15T06:26:00.118Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-test-harness to ^7.2.0'
       hash: 1b10e6795a565bb7d14a10ec74565b76bd9f246b
       body: |
