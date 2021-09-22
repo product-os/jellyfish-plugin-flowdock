@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.149 - 2021-09-22
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.243 [Renovate Bot]
+
 ## 1.0.148 - 2021-09-22
 
 * Add typedoc to depcheck ignore list [Josh Bowling]
