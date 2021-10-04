@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.156 - 2021-10-04
+
+* Update test:compose to match image name [Josh Bowling]
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 1.0.155 - 2021-10-03
 
 * patch: Update dependency @balena/jellyfish-config to ^1.5.1 [Renovate Bot]
