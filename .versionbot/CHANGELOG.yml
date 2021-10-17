@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency ts-jest to ^27.0.7'
+      hash: 9e5abde546329eb18857d2cadec7e68f4c2086e1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.163
+  date: 2021-10-17T10:20:28.437Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/secrets"
       hash: 85649236afb8663432c707fdcbcb0d2a27af4d86
       body: ''

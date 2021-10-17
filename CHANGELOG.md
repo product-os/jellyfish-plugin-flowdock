@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.163 - 2021-10-17
+
+* patch: Update dependency ts-jest to ^27.0.7 [Renovate Bot]
+
 ## 1.0.162 - 2021-10-15
 
 * 🔄 Synced file(s) with product-os/secrets [joshbwlng]
