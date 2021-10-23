@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.171 - 2021-10-23
+
+* patch: Update dependency lint-staged to ^11.2.4 [Renovate Bot]
+
 ## 1.0.170 - 2021-10-23
 
 * 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]

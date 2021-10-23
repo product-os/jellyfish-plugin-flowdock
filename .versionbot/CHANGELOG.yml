@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency lint-staged to ^11.2.4'
+      hash: e7f379a4f67be46edb254ee8610647f14a64eea5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.171
+  date: 2021-10-23T19:49:57.345Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
       hash: 2fd761831647c1229a8af4520968a6afe505c97e
       body: ''
