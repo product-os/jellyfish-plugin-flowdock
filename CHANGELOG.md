@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.181 - 2021-10-30
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.180 - 2021-10-30
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.259 [Renovate Bot]
