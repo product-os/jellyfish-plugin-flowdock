@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.196 - 2021-11-16
+
+* Set license [Josh Bowling]
+
 ## 1.0.195 - 2021-11-15
 
 * patch: Update dependency lint-staged to v12 [Renovate Bot]
