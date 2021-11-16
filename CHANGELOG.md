@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.198 - 2021-11-16
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 1.0.197 - 2021-11-16
 
 * Remove secret from test:compose script [Josh Bowling]

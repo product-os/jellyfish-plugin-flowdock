@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: d761c197d9d9a3d065dc70e5bb85ad947b33545c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.198
+  date: 2021-11-16T23:47:36.895Z
+- commits:
     - subject: 'Remove secret from test:compose script'
       hash: 46fc8b0f9ae8c9046740f929d62d184fa00b6ade
       body: ''
