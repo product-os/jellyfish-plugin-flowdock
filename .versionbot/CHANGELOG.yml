@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'Remove secret from test:compose script'
+      hash: 46fc8b0f9ae8c9046740f929d62d184fa00b6ade
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.197
+  date: 2021-11-16T23:38:10.403Z
+- commits:
     - subject: Set license
       hash: a4ee8e001a150f92a23c0bc6cd45eb68977d3241
       body: ''
