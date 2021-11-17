@@ -1,4 +1,25 @@
 - commits:
+    - subject: 'Update compose, remove old secrets'
+      hash: b49abadce8d6c59dc7c154ec82c418d98f18b8d4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/secrets"
+      hash: 7bd66b96d2df030d16be3c134beda55a763d3666
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 1.0.199
+  date: 2021-11-17T06:53:04.893Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: d761c197d9d9a3d065dc70e5bb85ad947b33545c
       body: ''

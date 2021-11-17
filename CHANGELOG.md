@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.199 - 2021-11-17
+
+* Update compose, remove old secrets [Josh Bowling]
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 1.0.198 - 2021-11-16
 
 * patch: Update internal-patch [Renovate Bot]
