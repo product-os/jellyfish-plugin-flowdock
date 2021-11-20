@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: 057780aad7143019dc029b0938a57c38c06257da
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.200
+  date: 2021-11-20T00:43:55.330Z
+- commits:
     - subject: 'Update compose, remove old secrets'
       hash: b49abadce8d6c59dc7c154ec82c418d98f18b8d4
       body: ''
