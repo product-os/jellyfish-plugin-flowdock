@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency lint-staged to ^12.1.1'
+      hash: 020943b09444c3aad8026ce65b51ac68c74aebc3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.203
+  date: 2021-11-21T18:08:24.407Z
+- commits:
     - subject: Remove license headers
       hash: fca147d2dfe561d11a0869fefb6063244e1b6e56
       body: ''
