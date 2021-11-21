@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.201 - 2021-11-21
+
+* patch: Update dependency @balena/jellycheck to v1 [Renovate Bot]
+
 ## 1.0.200 - 2021-11-20
 
 * patch: Update external-non-major [Renovate Bot]
