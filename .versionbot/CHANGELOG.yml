@@ -1,4 +1,16 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/lint to ^6.2.0'
+      hash: 3d320cca95c0bccd11b3b71092c607092f00c994
+      body: |
+        Update @balena/lint from 6.1.1 to 6.2.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.214
+  date: 2021-11-26T16:05:58.900Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.302'
       hash: 2fdda6b1d90100868e5cfd2c124c8eece4312ba2
       body: ''
