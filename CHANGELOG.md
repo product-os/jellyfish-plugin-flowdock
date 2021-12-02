@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.225 - 2021-12-02
+
+* Update readme [Josh Bowling]
+
 ## 1.0.224 - 2021-12-01
 
 * Remove old secrets from gitignore [Josh Bowling]

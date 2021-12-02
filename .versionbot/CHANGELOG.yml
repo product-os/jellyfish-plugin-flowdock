@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update readme
+      hash: ef6ae4c3c1de48e3d9d0d5e494cbb0248195f926
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.225
+  date: 2021-12-02T00:48:01.113Z
+- commits:
     - subject: Remove old secrets from gitignore
       hash: 6459ec2e17cc688caddf9af55344ee7523155f0f
       body: ''
