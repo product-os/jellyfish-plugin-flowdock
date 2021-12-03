@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update readme
+      hash: 6a6fd6f4dd4875000f29669744eec44f0dad7ea0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.227
+  date: 2021-12-03T02:58:26.569Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.311'
       hash: 070def6e378e2f8f2b52a896e379217a36569612
       body: ''
