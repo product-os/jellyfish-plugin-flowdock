@@ -36,8 +36,11 @@ $ npm run test:compose
 
 You can also run tests locally against Postgres and Redis instances running in `docker-compose`:
 ```
+$ git secret reveal
 $ npm run compose
-$ REDIS_HOST=localhost POSTGRES_HOST=localhost POSTGRES_USER=docker POSTGRES_PASSWORD=docker npx jest test/integration/example.spec.ts
+$ export INTEGRATION_FLOWDOCK_TOKEN=$(cat .balena/secrets/integration_flowdock_token)
+$ export INTEGRATION_FLOWDOCK_SIGNATURE_KEY=$(cat .balena/secrets/integration_flowdock_signature_key)
+$ REDIS_HOST=localhost POSTGRES_HOST=localhost npx jest test/integration/flowdock-translate.spec.ts
 ```
 
 You can also access these Postgres and Redis instances:
