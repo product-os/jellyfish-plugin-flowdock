@@ -1,6 +1,5 @@
 import { Integration } from '@balena/jellyfish-plugin-base';
 import _ from 'lodash';
-import Bluebird from 'bluebird';
 import crypto from 'crypto';
 import LRU from 'lru-cache';
 
@@ -21,11 +20,11 @@ module.exports = class FlowdockIntegration implements Integration {
 	}
 
 	async initialize() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	async destroy() {
-		return Bluebird.resolve();
+		return Promise.resolve();
 	}
 
 	async mirror(_card: any, _options: any) {
