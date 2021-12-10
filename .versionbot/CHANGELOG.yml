@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.321'
+      hash: 0e374f6d34b913b9592ad45abeb754fa36c99d27
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.239
+  date: 2021-12-10T04:00:13.484Z
+- commits:
     - subject: Remove Bluebird
       hash: fc168ad241d4b7b4522e1b777b475c11e60cb512
       body: ''
