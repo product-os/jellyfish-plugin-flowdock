@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.324'
+      hash: 0435d6c9f8bb171ae667eb7183a0ccb9199d9250
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.244
+  date: 2021-12-14T09:00:51.886Z
+- commits:
     - subject: 'Add typescript, drop depcheck'
       hash: fcc69b0887be5e5efce58e40e2a0f8a594c490f4
       body: ''
