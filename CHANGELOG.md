@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.243 - 2021-12-14
+
+* Add typescript, drop depcheck [Josh Bowling]
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.323 [Renovate Bot]
+
 ## 1.0.242 - 2021-12-11
 
 * patch: Update resinci/jellyfish-test Docker tag to v1.4.16 [Renovate Bot]

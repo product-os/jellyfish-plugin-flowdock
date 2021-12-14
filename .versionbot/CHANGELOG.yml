@@ -1,4 +1,25 @@
 - commits:
+    - subject: 'Add typescript, drop depcheck'
+      hash: fcc69b0887be5e5efce58e40e2a0f8a594c490f4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update dependency @balena/jellyfish-plugin-base to ^2.1.323'
+      hash: bcf49332092be114ff037976c684c2e9fbffe965
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.243
+  date: 2021-12-14T00:58:58.321Z
+- commits:
     - subject: 'patch: Update resinci/jellyfish-test Docker tag to v1.4.16'
       hash: c391b7f52ee7785821482b92841957340d849088
       body: ''
