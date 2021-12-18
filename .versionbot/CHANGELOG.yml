@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update external-non-major'
+      hash: f5ed602831415ab4099a0d835fc9ca0b5f664b23
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.0.247
+  date: 2021-12-18T08:29:05.953Z
+- commits:
     - subject: "\U0001F504 Synced file(s) with product-os/secrets"
       hash: a96dd16a37355daa2fee66061e8a7fada14b4892
       body: ''
