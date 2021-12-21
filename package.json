@@ -54,7 +54,7 @@
     "@balena/jellyfish-action-library": "^15.1.189",
     "@balena/jellyfish-config": "^2.0.2",
     "@balena/jellyfish-environment": "^6.0.1",
-    "@balena/jellyfish-plugin-default": "^21.1.147",
+    "@balena/jellyfish-plugin-default": "^21.2.0",
     "@balena/jellyfish-test-harness": "^8.1.190",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.0.3",
@@ -72,7 +72,7 @@
   "peerDependencies": {
     "@balena/jellyfish-action-library": "^15.1.189",
     "@balena/jellyfish-environment": "^6.0.1",
-    "@balena/jellyfish-plugin-default": "^21.1.147"
+    "@balena/jellyfish-plugin-default": "^21.2.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
