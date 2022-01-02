@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.261 - 2022-01-02
+
+* patch: Update dependency lint-staged to ^12.1.5 [Renovate Bot]
+
 ## 1.0.260 - 2022-01-01
 
 * patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.15 [Renovate Bot]
