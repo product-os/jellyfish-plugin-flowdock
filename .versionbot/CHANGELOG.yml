@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove dev peer dependencies
+      hash: 1125a665df9dd78fbf6cf7c148c69dc4de88b173
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 1.0.264
+  date: 2022-01-04T06:23:12.869Z
+- commits:
     - subject: Update action-library import
       hash: 379089039488e157355de67ae411d16fea9ce763
       body: ''

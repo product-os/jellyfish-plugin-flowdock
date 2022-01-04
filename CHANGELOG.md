@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.264 - 2022-01-04
+
+* Remove dev peer dependencies [Josh Bowling]
+
 ## 1.0.263 - 2022-01-04
 
 * Update action-library import [Josh Bowling]
