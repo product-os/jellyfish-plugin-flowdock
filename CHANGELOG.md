@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.274 - 2022-01-17
+
+* patch: Update dependency @balena/jellyfish-plugin-base to ^2.2.25 [Renovate Bot]
+
 ## 1.0.273 - 2022-01-16
 
 * patch: Update external-non-major Docker tags [Renovate Bot]
