@@ -1,26 +1,23 @@
-import { JellyfishPluginBase } from '@balena/jellyfish-plugin-base';
-import integrations from './integrations';
+import { PluginDefinition } from '@balena/jellyfish-worker';
+import { integrations } from './integrations';
+
+// tslint:disable-next-line: no-var-requires
+const { version } = require('../package.json');
 
 /**
  * The Flowdock Jellyfish plugin.
  */
-export class FlowdockPlugin extends JellyfishPluginBase {
-	constructor() {
-		super({
-			slug: 'jellyfish-plugin-flowdock',
-			name: 'Flowdock Plugin',
-			version: '1.0.0',
-			integrations,
-			requires: [
-				{
-					slug: 'action-library',
-					version: '>=11.x',
-				},
-				{
-					slug: 'jellyfish-plugin-default',
-					version: '>=19.x',
-				},
-			],
-		});
-	}
-}
+export const flowdockPlugin = (): PluginDefinition => {
+	return {
+		slug: 'plugin-flowdock',
+		name: 'Flowdock Plugin',
+		version,
+		integrationMap: integrations,
+		requires: [
+			{
+				slug: 'plugin-default',
+				version: '>=22.x',
+			},
+		],
+	};
+};
