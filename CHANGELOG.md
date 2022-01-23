@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 1.0.278 - 2022-01-23
+
+* patch: Update dependency lint-staged to ^12.3.0 [Renovate Bot]
+
 ## 1.0.277 - 2022-01-22
 
 * patch: Update external-non-major [Renovate Bot]
