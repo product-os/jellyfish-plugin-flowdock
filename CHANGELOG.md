@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.1 - 2022-01-29
+
+* Update dependencies (internal patch bumps) [Renovate Bot]
+
 ## 2.0.0 - 2022-01-29
 
 * Switch from plugin-base to worker [Josh Bowling]
