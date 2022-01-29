@@ -1,4 +1,4 @@
-import { PluginDefinition } from '@balena/jellyfish-worker';
+import type { PluginDefinition } from '@balena/jellyfish-worker';
 import { integrations } from './integrations';
 
 // tslint:disable-next-line: no-var-requires
