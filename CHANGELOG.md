@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.2 - 2022-01-29
+
+* Import type properly [Josh Bowling]
+
 ## 2.0.1 - 2022-01-29
 
 * Update dependencies (internal patch bumps) [Renovate Bot]

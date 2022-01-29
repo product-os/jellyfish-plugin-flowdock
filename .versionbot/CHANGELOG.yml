@@ -1,4 +1,18 @@
 - commits:
+    - subject: Import type properly
+      hash: daa80649f186f78bf26f9afb796e9902a19b24a9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.2
+  title: Import type properly
+  date: 2022-01-29T10:21:31.324Z
+- commits:
     - subject: Update dependencies (internal patch bumps)
       hash: 50b99ce7f36fedc3b7ac522d5b3a3f6e9620fad4
       body: ""
