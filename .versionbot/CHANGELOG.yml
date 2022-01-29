@@ -1,4 +1,26 @@
 - commits:
+    - subject: Switch from plugin-base to worker
+      hash: 8014c7fd463dc10b5c86f3710a6c202a3f4b43af
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update dependencies (external major bumps)
+      hash: 13e45c7c937ebb0dbf250328f136eff489bc595e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.0
+  title: Switch from plugin-base to worker
+  date: 2022-01-29T07:12:21.688Z
+- commits:
     - subject: 🔄 Synced file(s) with product-os/secrets
       hash: 9beb142ee2dca4be32f75dbced606ffd9363910e
       body: ""
