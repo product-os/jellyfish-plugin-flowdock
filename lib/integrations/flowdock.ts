@@ -1,13 +1,15 @@
-import { Integration } from '@balena/jellyfish-plugin-base';
+import type {
+	Integration,
+	IntegrationDefinition,
+} from '@balena/jellyfish-worker';
+import * as crypto from 'crypto';
 import _ from 'lodash';
-import crypto from 'crypto';
 import LRU from 'lru-cache';
 
 const FLOWDOCK_USER_CACHE = new LRU(200);
 const SLUG = 'flowdock';
 
-// TS-TODO: Don't export with module.exports
-module.exports = class FlowdockIntegration implements Integration {
+export class FlowdockIntegration implements Integration {
 	public slug = SLUG;
 
 	// TS-TODO: Use proper types
@@ -19,19 +21,15 @@ module.exports = class FlowdockIntegration implements Integration {
 		this.context = this.options.context;
 	}
 
-	async initialize() {
+	public async destroy() {
 		return Promise.resolve();
 	}
 
-	async destroy() {
-		return Promise.resolve();
-	}
-
-	async mirror(_card: any, _options: any) {
+	public async mirror(_card: any, _options: any) {
 		return [];
 	}
 
-	async translate(event: any): Promise<any> {
+	public async translate(event: any): Promise<any> {
 		if (
 			!this.options.token ||
 			!this.options.token.api ||
@@ -257,10 +255,7 @@ module.exports = class FlowdockIntegration implements Integration {
 
 		return sequence;
 	}
-};
-
-// TS-TODO: Don't export with module.exports
-module.exports.slug = SLUG;
+}
 
 function slugify(event: any, type: any): string {
 	const typeBase = type.split('@')[0];
@@ -377,16 +372,18 @@ function isEventActionable(event): boolean {
 	return actionableEvents.includes(event.data.payload.event);
 }
 
-// TS-TODO: Don't export with module.exports
-module.exports.isEventValid = (token, rawEvent, headers) => {
-	const signature = headers['x-flowdock-signature'];
-	if (!signature || !token || !token.signature) {
-		return false;
-	}
+export const flowdockIntegrationDefinition: IntegrationDefinition = {
+	initialize: async (options) => new FlowdockIntegration(options),
+	isEventValid: (token, rawEvent, headers) => {
+		const signature = headers['x-flowdock-signature'];
+		if (!signature || !token || !token.signature) {
+			return false;
+		}
 
-	const hash = crypto
-		.createHmac('sha1', token.signature)
-		.update(rawEvent)
-		.digest('hex');
-	return signature === `sha1=${hash}`;
+		const hash = crypto
+			.createHmac('sha1', token.signature)
+			.update(rawEvent)
+			.digest('hex');
+		return signature === `sha1=${hash}`;
+	},
 };

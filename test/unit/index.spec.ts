@@ -1,13 +1,13 @@
-import { FlowdockPlugin } from '../../lib';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
+import { PluginManager } from '@balena/jellyfish-worker';
+import { flowdockPlugin } from '../../lib';
 
-const plugin = new FlowdockPlugin();
-const context = {
-	id: 'jellyfish-plugin-flowdock-test',
-};
+const pluginManager = new PluginManager([defaultPlugin(), flowdockPlugin()]);
 
 test('Expected integrations are loaded', () => {
-	const integrations = plugin.getSyncIntegrations(context);
+	const integrations = pluginManager.getSyncIntegrations();
+	console.log('integrations:', integrations);
 
 	// Sanity check
-	expect(integrations.flowdock.slug).toEqual('flowdock');
+	expect(Object.keys(integrations).includes('flowdock')).toBeTruthy();
 });
