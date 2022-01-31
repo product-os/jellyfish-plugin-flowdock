@@ -1,7 +1,7 @@
 {
   "name": "@balena/jellyfish-plugin-flowdock",
   "description": "Flowdock Jellyfish Plugin",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-flowdock"
@@ -73,6 +73,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2022-01-29T10:21:31.590Z"
+    "publishedAt": "2022-01-31T04:25:17.144Z"
   }
 }

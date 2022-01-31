@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 16.2.3 to 17.0.0
+      hash: 59bf1114ce857a966db77e860b6091432b325e0b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.3
+  title: Update @balena/jellyfish-worker from 16.2.3 to 17.0.0
+  date: 2022-01-31T04:25:16.883Z
+- commits:
     - subject: Import type properly
       hash: daa80649f186f78bf26f9afb796e9902a19b24a9
       body: ""

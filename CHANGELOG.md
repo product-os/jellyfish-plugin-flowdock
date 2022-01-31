@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.3 - 2022-01-31
+
+* Update @balena/jellyfish-worker from 16.2.3 to 17.0.0 [Josh Bowling]
+
 ## 2.0.2 - 2022-01-29
 
 * Import type properly [Josh Bowling]
