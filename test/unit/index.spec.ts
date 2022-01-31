@@ -6,8 +6,5 @@ const pluginManager = new PluginManager([defaultPlugin(), flowdockPlugin()]);
 
 test('Expected integrations are loaded', () => {
 	const integrations = pluginManager.getSyncIntegrations();
-	console.log('integrations:', integrations);
-
-	// Sanity check
 	expect(Object.keys(integrations).includes('flowdock')).toBeTruthy();
 });
