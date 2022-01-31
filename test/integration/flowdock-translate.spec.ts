@@ -68,14 +68,6 @@ describe('translate logic works as expected', () => {
 					},
 					{
 						source: 'flowdock',
-						options: {
-							logContext: ctx.logContext,
-							session: ctx.kernel.adminSession()!,
-							actor: ctx.adminUserId,
-							token: TOKEN,
-						},
-					},
-					{
 						baseUrl: 'https://api.flowdock.com',
 						uriPath: /.*/,
 						basePath: path.join(__dirname, 'webhooks'),
