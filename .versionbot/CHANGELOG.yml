@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix isEventValid arguments
+      hash: 17a5cb8adbfb389677f83f88d5590cdae97ee565
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.4
+  title: Fix isEventValid arguments
+  date: 2022-02-01T06:55:07.105Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 16.2.3 to 17.0.0
       hash: 59bf1114ce857a966db77e860b6091432b325e0b
       body: ""
