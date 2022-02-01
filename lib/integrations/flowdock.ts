@@ -374,7 +374,7 @@ function isEventActionable(event): boolean {
 
 export const flowdockIntegrationDefinition: IntegrationDefinition = {
 	initialize: async (options) => new FlowdockIntegration(options),
-	isEventValid: (token, rawEvent, headers) => {
+	isEventValid: (_logContext, token, rawEvent, headers) => {
 		const signature = headers['x-flowdock-signature'];
 		if (!signature || !token || !token.signature) {
 			return false;
