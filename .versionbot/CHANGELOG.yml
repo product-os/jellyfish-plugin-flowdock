@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update dependencies
+      hash: 212d30208b5c0d3928fe1606dbcf37a74cadc503
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carol Schulze <carol@ereski.org>
+        signed-off-by: Carol Schulze <carol@ereski.org>
+      author: Carol Schulze
+      nested: []
+  version: 2.0.6
+  title: Update dependencies
+  date: 2022-02-02T17:47:23.410Z
+- commits:
     - subject: Update resinci/jellyfish-test Docker tag to v1.4.22
       hash: 2da3d5023fe420cb7739afe372b267be071e0acc
       body: ""
