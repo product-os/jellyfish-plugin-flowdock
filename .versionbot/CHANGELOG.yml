@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update resinci/jellyfish-test Docker tag to v1.4.22
+      hash: 2da3d5023fe420cb7739afe372b267be071e0acc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.5
+  title: Update resinci/jellyfish-test Docker tag to v1.4.22
+  date: 2022-02-01T07:06:54.732Z
+- commits:
     - subject: Fix isEventValid arguments
       hash: 17a5cb8adbfb389677f83f88d5590cdae97ee565
       body: ""
