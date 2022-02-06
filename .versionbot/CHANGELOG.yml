@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update external-non-major
+      hash: fba419d859a09be3caac4f7617adfbc69446734a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.10
+  title: "'Update external-non-major'"
+  date: 2022-02-06T13:17:47.118Z
+- commits:
     - subject: Optimize postgres for tests, minor fixes
       hash: c6352fadb8ca39d407c7af20ef0a42356412035e
       body: ""
