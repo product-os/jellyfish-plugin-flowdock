@@ -2,8 +2,8 @@ import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils } from '@balena/jellyfish-worker';
-import path from 'path';
 import _ from 'lodash';
+import path from 'path';
 import { flowdockPlugin } from '../../lib';
 import webhooks from './webhooks';
 
@@ -15,6 +15,9 @@ beforeAll(async () => {
 		plugins: [productOsPlugin(), defaultPlugin(), flowdockPlugin()],
 	});
 
+	// TODO: Improve translate test suite/protocol to avoid this
+	ctx.worker.setTriggers(ctx.logContext, []);
+
 	await testUtils.translateBeforeAll(ctx);
 });
 
@@ -23,10 +26,11 @@ afterEach(async () => {
 });
 
 afterAll(() => {
+	testUtils.translateAfterAll();
 	return testUtils.destroyContext(ctx);
 });
 
-describe('translate logic works as expected', () => {
+describe('translate', () => {
 	for (const testCaseName of Object.keys(webhooks)) {
 		const testCase = webhooks[testCaseName];
 		const expected = {
