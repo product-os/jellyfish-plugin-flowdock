@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update resinci/jellyfish-test from v1.4.26 to v1.4.27
+      hash: 728205d93426c01330281d14188959b55ba3c2e2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.14
+  title: "'Update resinci/jellyfish-test from v1.4.26 to v1.4.27'"
+  date: 2022-02-15T23:08:18.607Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 6.0.14 to 6.1.1
       hash: 16047c7e4c23d5663db4e78505345f0dd6cd6398
       body: ""
