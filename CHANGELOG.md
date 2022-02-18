@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.16 - 2022-02-18
+
+* 🔄 Synced file(s) with product-os/secrets [joshbwlng]
+
 ## 2.0.15 - 2022-02-16
 
 * Update @balena/jellyfish-environment from 6.1.1 to 7.0.0 [Renovate Bot]

@@ -1,4 +1,16 @@
 - commits:
+    - subject: 🔄 Synced file(s) with product-os/secrets
+      hash: b98ff6fef91772c4467b0185a5e6ddd2695d9cf7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 2.0.16
+  title: "'🔄 Synced file(s) with product-os/secrets'"
+  date: 2022-02-18T02:55:20.986Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 6.1.1 to 7.0.0
       hash: a4132870218f7339959da269f095bdf65f0a380a
       body: ""
