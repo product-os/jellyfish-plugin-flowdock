@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.23 - 2022-02-24
+
+* Update resinci/jellyfish-test from v2.0.4 to v2.0.5 [Renovate Bot]
+
 ## 2.0.22 - 2022-02-24
 
 * Transform serialize-error [Josh Bowling]

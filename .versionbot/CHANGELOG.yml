@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update resinci/jellyfish-test from v2.0.4 to v2.0.5
+      hash: 5ed7fceb2a20344cceb80e3d7fc88ed3f9ff2f73
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.23
+  title: "'Update resinci/jellyfish-test from v2.0.4 to v2.0.5'"
+  date: 2022-02-24T19:22:06.356Z
+- commits:
     - subject: Transform serialize-error
       hash: e483a9f3d33f1eae2e7b6ac3a4a1e80a486ae841
       body: ""
