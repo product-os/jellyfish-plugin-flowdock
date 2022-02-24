@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.22 - 2022-02-24
+
+* Transform serialize-error [Josh Bowling]
+* Upgrade resinci/jellyfish-test from 1.4.27 to 2.0.4 [Josh Bowling]
+
 ## 2.0.21 - 2022-02-23
 
 * Update @balena/jellyfish-environment from 7.0.0 to 8.0.0 [Renovate Bot]

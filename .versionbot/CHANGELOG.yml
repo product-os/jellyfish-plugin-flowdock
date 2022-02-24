@@ -1,4 +1,28 @@
 - commits:
+    - subject: Transform serialize-error
+      hash: e483a9f3d33f1eae2e7b6ac3a4a1e80a486ae841
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Upgrade resinci/jellyfish-test from 1.4.27 to 2.0.4
+      hash: be293b756556571d07f87d1b7c7a7df9c201210e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.22
+  title: "'Upgrade resinci/jellyfish-test from 1.4.27 to 2.0.4'"
+  date: 2022-02-24T03:25:08.910Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 7.0.0 to 8.0.0
       hash: e2bfa31e3822e9865e46ff5dd920b4d93828d9d6
       body: ""
