@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 18.8.0 to 19.0.0
+      hash: c18e57acd28278ecf6dec39c3ff62d86d077095a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.27
+  title: "'Update @balena/jellyfish-worker from 18.8.0 to 19.0.0'"
+  date: 2022-03-01T06:27:33.453Z
+- commits:
     - subject: 🔄 Synced file(s) with product-os/secrets
       hash: cb8b0ea485bb028d4837fb7ba64253fe4fb9527e
       body: ""
