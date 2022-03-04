@@ -46,7 +46,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-worker": "^19.0.3",
+    "@balena/jellyfish-worker": "^19.0.6",
     "lodash": "^4.17.21",
     "lru-cache": "^6.0.0"
   },
@@ -54,7 +54,7 @@
     "@balena/jellyfish-config": "^2.0.2",
     "@balena/jellyfish-environment": "^9.1.1",
     "@balena/jellyfish-plugin-default": "^23.3.20",
-    "@balena/jellyfish-plugin-product-os": "^4.0.31",
+    "@balena/jellyfish-plugin-product-os": "^4.0.32",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.1",
     "@types/lodash": "^4.14.179",
