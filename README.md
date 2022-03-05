@@ -7,13 +7,13 @@ Provides a sync integration for Flowdock.
 Below is an example how to use this library:
 
 ```js
-import { cardMixins } from '@balena/jellyfish-core';
-import { FlowdockPlugin } from '@balena/jellyfish-plugin-flowdock';
+import { defaultPlugin } from '@balena/jellyfish-plugin-default';
+import { flowdockPlugin } from '@balena/jellyfish-plugin-flowdock';
+import { PluginManager } from '@balena/jellyfish-worker';
 
-const plugin = new FlowdockPlugin();
-
-// Load cards from this plugin, can use custom mixins
-const cards = plugin.getCards(context, cardMixins);
+// Load cards from this plugin
+const pluginManager = new PluginManager([defaultPlugin(), flowdockPlugin()]);
+const cards = pluginManager.getCards();
 console.dir(cards);
 ```
 
