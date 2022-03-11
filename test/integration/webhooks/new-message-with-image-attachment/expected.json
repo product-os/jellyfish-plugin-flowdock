@@ -14,10 +14,7 @@
       ],
       "flow": "testing",
       "mentionsUser": [],
-      "mentionsGroup": [],
       "alertsUser": [],
-      "alertsGroup": [],
-      "participants": [],
       "description": ""
     }
   },
@@ -50,10 +47,7 @@
             ],
             "flow": "testing",
             "mentionsUser": [],
-            "mentionsGroup": [],
             "alertsUser": [],
-            "alertsGroup": [],
-            "participants": [],
             "description": ""
           }
         }
