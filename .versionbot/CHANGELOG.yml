@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 19.0.20 to 19.0.21
+      hash: 26c4ce877b5628059c3639d865e2eb51b6fe112a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.48
+  title: "'Update @balena/jellyfish-worker from 19.0.20 to 19.0.21'"
+  date: 2022-03-11T09:22:35.713Z
+- commits:
     - subject: Bump internal deps, update failing tests
       hash: bb2e8a859707ee66fdde8b2ea419b6b80695dce5
       body: ""
