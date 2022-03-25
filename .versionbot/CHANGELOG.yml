@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump internal deps
+      hash: ece5b4a6799976c033d686ab4fbfd5c1efd5f637
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.76
+  title: "'Bump internal deps'"
+  date: 2022-03-25T04:32:10.350Z
+- commits:
     - subject: Update typescript from 4.6.2 to 4.6.3
       hash: f02c4631310c148f08826390666b419045ea0d19
       body: ""
