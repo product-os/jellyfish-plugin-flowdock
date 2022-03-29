@@ -25,7 +25,7 @@ export class FlowdockIntegration implements Integration {
 		return Promise.resolve();
 	}
 
-	public async mirror(_card: any, _options: any) {
+	public async mirror(_contract: any, _options: any) {
 		return [];
 	}
 
@@ -93,13 +93,13 @@ export class FlowdockIntegration implements Integration {
 		const flowThreadMirrorId = `${flowData.body.url}/threads/${event.data.payload.thread_id}`;
 
 		// Check if there is an element of type thread in JF.
-		const threadCard = await this.context.getElementByMirrorId(
+		const threadContract = await this.context.getElementByMirrorId(
 			'thread@1.0.0',
 			flowThreadMirrorId,
 		);
 
 		if (
-			!threadCard &&
+			!threadContract &&
 			event.data.payload.id === event.data.payload.thread.initial_message
 		) {
 			const thread = {
@@ -132,26 +132,26 @@ export class FlowdockIntegration implements Integration {
 		) {
 			const messageMirrorId = `${flowThreadMirrorId}/messages/${event.data.payload.id}`;
 			const type = getMessageType(event);
-			let messageCard = await this.context.getElementByMirrorId(
+			let messageContract = await this.context.getElementByMirrorId(
 				type,
 				messageMirrorId,
 			);
-			const target = threadCard || {
+			const target = threadContract || {
 				id: {
 					$eval: 'cards[0].id',
 				},
 			};
-			if (messageCard) {
-				messageCard.data.payload.message = getMessageContent(event);
-				messageCard.data.payload.mentionsUser = await getMentions(
+			if (messageContract) {
+				messageContract.data.payload.message = getMessageContent(event);
+				messageContract.data.payload.mentionsUser = await getMentions(
 					event,
 					this.context,
 					adminActorId,
 					headers,
 					event.data.payload.messageData.body.tags,
 				);
-				messageCard.tags = getTags(event);
-				messageCard.data.timestamp = event.data.payload.created_at;
+				messageContract.tags = getTags(event);
+				messageContract.data.timestamp = event.data.payload.created_at;
 				const readByArray = await getReadByArray(
 					event,
 					this.context,
@@ -159,10 +159,10 @@ export class FlowdockIntegration implements Integration {
 					headers,
 				);
 				if (!_.isEmpty(readByArray)) {
-					messageCard.data.payload.readBy = readByArray;
+					messageContract.data.payload.readBy = readByArray;
 				}
 			} else {
-				messageCard = {
+				messageContract = {
 					name: '',
 					type,
 					slug: slugify(event, type),
@@ -197,33 +197,33 @@ export class FlowdockIntegration implements Integration {
 				headers,
 			);
 			if (!_.isEmpty(readBy)) {
-				messageCard.data.payload.readBy = readBy;
+				messageContract.data.payload.readBy = readBy;
 			}
 			sequence.push({
 				time: new Date(event.data.payload.created_at),
 				actor: eventActorId,
-				card: messageCard,
+				card: messageContract,
 			});
 		}
 
 		if (event.data.payload.event === 'file') {
 			const messageMirrorId = `${flowThreadMirrorId}/messages/${event.data.payload.id}`;
 			const type = 'whisper@1.0.0';
-			let messageCard = await this.context.getElementByMirrorId(
+			let messageContract = await this.context.getElementByMirrorId(
 				type,
 				messageMirrorId,
 			);
-			const target = threadCard || {
+			const target = threadContract || {
 				id: {
 					$eval: 'cards[0].id',
 				},
 			};
-			if (!messageCard) {
+			if (!messageContract) {
 				let message = `[${event.data.payload.content.file_name}](https://www.flowdock.com/rest${event.data.payload.content.path})`;
 				if ('image' in event.data.payload.content) {
 					message = `!${message}`;
 				}
-				messageCard = {
+				messageContract = {
 					name: '',
 					type,
 					slug: slugify(event, type),
@@ -249,7 +249,7 @@ export class FlowdockIntegration implements Integration {
 			sequence.push({
 				time: new Date(event.data.payload.created_at),
 				actor: eventActorId,
-				card: messageCard,
+				card: messageContract,
 			});
 		}
 

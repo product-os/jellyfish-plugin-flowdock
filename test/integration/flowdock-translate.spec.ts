@@ -57,7 +57,7 @@ describe('translate', () => {
 						headIndex: testCase.headIndex || 0,
 						original: testCase.steps,
 
-						// If we miss events such as when a head card was archived,
+						// If we miss events such as when a head contract was archived,
 						// we usually can't know the date this happened, but we can
 						// still apply it with a date approximation. In those cases,
 						// its helpful to omit the update events from the tail checks.
