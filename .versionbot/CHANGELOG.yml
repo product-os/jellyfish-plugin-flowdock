@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update internal-patch
+      hash: 4ab5f0382da9113858f77f5d858a1b18765cb3dc
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 21.0.8 to 21.1.0
+      hash: 4481d042f2cd71982e0e37a1dfe1aded893abc7f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.81
+  title: "'Update internal-patch'"
+  date: 2022-03-31T05:05:26.357Z
+- commits:
     - subject: Rename card to contract
       hash: 81490d87fdbd27e5ca17f02219d356e7445e1168
       body: ""

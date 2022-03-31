@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.81 - 2022-03-31
+
+* Update internal-patch [Renovate Bot]
+* Update @balena/jellyfish-worker from 21.0.8 to 21.1.0 [Renovate Bot]
+
 ## 2.0.80 - 2022-03-29
 
 * Rename card to contract [Josh Bowling]
