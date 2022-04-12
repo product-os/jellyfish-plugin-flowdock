@@ -1,11 +1,5 @@
 version: '3'
 
-env:
-  INTEGRATION_FLOWDOCK_SIGNATURE_KEY:
-    sh: cat /run/secrets/integration_flowdock_signature_key
-  INTEGRATION_FLOWDOCK_TOKEN:
-    sh: cat /run/secrets/integration_flowdock_token
-
 tasks:
   test:
     cmds:
