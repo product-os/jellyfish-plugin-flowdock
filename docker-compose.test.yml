@@ -11,14 +11,5 @@ services:
       - redis
     environment:
       - LOGLEVEL=error
-    secrets:
-      - integration_flowdock_signature_key
-      - integration_flowdock_token
     networks:
       - internal
-
-secrets:
-  integration_flowdock_signature_key:
-    file: ./.balena/secrets/integration_flowdock_signature_key
-  integration_flowdock_token:
-    file: ./.balena/secrets/integration_flowdock_token
