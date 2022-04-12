@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.99 - 2022-04-12
+
+* Update @balena/jellyfish-worker from 21.1.13 to 21.2.4 [Renovate Bot]
+
 ## 2.0.98 - 2022-04-12
 
 * Update secrets [Josh Bowling]
