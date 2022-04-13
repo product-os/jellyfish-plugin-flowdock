@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "@balena/jellyfish-config": "^2.0.5",
-    "@balena/jellyfish-environment": "^9.1.12",
-    "@balena/jellyfish-plugin-default": "^24.0.65",
+    "@balena/jellyfish-environment": "^9.1.16",
+    "@balena/jellyfish-plugin-default": "^24.0.70",
     "@balena/jellyfish-plugin-product-os": "^4.0.58",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.4.1",
