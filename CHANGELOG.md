@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.108 - 2022-04-14
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.107 - 2022-04-13
 
 * Remove git secrets [Josh Bowling]
