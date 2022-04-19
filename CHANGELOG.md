@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.117 - 2022-04-19
+
+* Bump internal deps [Josh Bowling]
+
 ## 2.0.116 - 2022-04-18
 
 * Update internal deps [Josh Bowling]

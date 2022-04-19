@@ -1,4 +1,18 @@
 - commits:
+    - subject: Bump internal deps
+      hash: 415ff4a60199606aa6caba9d2e422e95b5785520
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.117
+  title: "'Bump internal deps'"
+  date: 2022-04-19T05:19:00.232Z
+- commits:
     - subject: Update internal deps
       hash: 513b8512c35635b96c770ab41dbec0efa2dc5eaf
       body: ""
