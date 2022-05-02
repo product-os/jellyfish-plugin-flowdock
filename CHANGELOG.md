@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 2.0.131 - 2022-05-02
+
+* Update internal-patch [Renovate Bot]
+
 ## 2.0.130 - 2022-04-30
 
 * Update internal-patch [Renovate Bot]
