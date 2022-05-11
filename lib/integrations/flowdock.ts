@@ -373,6 +373,8 @@ function isEventActionable(event): boolean {
 }
 
 export const flowdockIntegrationDefinition: IntegrationDefinition = {
+	slug: SLUG,
+
 	initialize: async (options) => new FlowdockIntegration(options),
 	isEventValid: (_logContext, token, rawEvent, headers) => {
 		const signature = headers['x-flowdock-signature'];
