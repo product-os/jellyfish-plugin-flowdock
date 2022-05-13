@@ -1,4 +1,24 @@
 - commits:
+    - subject: Update to worker v26
+      hash: 0b853669270053b86bb3892f7b05f00ace21d788
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: karaxuna
+      nested: []
+    - subject: Update @balena/jellyfish-environment from 11.0.3 to 12.0.0
+      hash: b846c1befbf512f377d64c4008c1e75981507481
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 4.0.0
+  title: "'Update to worker v26'"
+  date: 2022-05-13T16:42:14.510Z
+- commits:
     - subject: Update to worker 24
       hash: e9f970616b86069838c1adec6bf8cf6cfc70f06f
       body: ""
