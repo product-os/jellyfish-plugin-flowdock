@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update typescript from 4.6.4 to 4.7.2
+      hash: caf08bf94027eeb1db322d44d9eb2e70fd74b7ed
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-plugin-default from 27.3.1 to 27.4.2
+      hash: 5d51cc7db0d6d9a4909a6640eb0813d9b9d834a9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update @balena/jellyfish-worker from 27.1.0 to 27.2.1
+      hash: 36bc8a2bf1442370650cba3e254e29e487d216c8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: Update typedoc from 0.22.15 to 0.22.16
+      hash: 4afed693ce08cefb51465de6771914ccb13b1827
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 5.0.12
+  title: "'Update typescript from 4.6.4 to 4.7.2'"
+  date: 2022-06-01T04:30:37.107Z
+- commits:
     - subject: Update external-non-major (external non-major bumps)
       hash: 48da85d3ebce86a04f509aeacfbbdea00a3673ff
       body: ""
