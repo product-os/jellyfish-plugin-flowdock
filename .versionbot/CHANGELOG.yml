@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update external packages
+      hash: a528ed306fb97ba3acfee92c33c141f0c42fad0b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.17
+  title: "'Update external packages'"
+  date: 2022-06-06T08:59:33.862Z
+- commits:
     - subject: Update typescript from 4.7.2 to 4.7.3
       hash: 4d8f77fe31589759f3c497fcb63438e25d24e0a3
       body: ""
