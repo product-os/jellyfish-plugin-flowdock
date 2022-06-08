@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update internal packages
+      hash: 4e6cc0ee0cbbdfede265c1d46a23361f5afe9c96
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.19
+  title: "'Update internal packages'"
+  date: 2022-06-08T03:23:26.030Z
+- commits:
     - subject: Update @balena/jellyfish-plugin-default from 27.4.2 to 27.5.0
       hash: 94ea82252e479b245a64c5e97623d47370f40398
       body: ""
