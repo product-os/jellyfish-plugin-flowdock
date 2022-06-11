@@ -1,4 +1,28 @@
 - commits:
+    - subject: "Tests: Replace worker stream references"
+      hash: 41d647344608c8ae769b42c928cc3e14bd52b67c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: Update dependencies
+      hash: d2e4e1ee987d6a4ef5a6b16e2784265862041cb8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.21
+  title: "'Update dependencies'"
+  date: 2022-06-11T10:33:45.701Z
+- commits:
     - subject: Update resinci/jellyfish-test from v3.0.13 to v3.0.14
       hash: 7b2e05d48bcf98b1ec946f299ea97a94f6793b80
       body: ""
