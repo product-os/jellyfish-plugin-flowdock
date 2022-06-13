@@ -14,37 +14,6 @@ beforeAll(async () => {
 	ctx = await testUtils.newContext({
 		plugins: [productOsPlugin(), defaultPlugin(), flowdockPlugin()],
 	});
-
-	// TODO: Improve translate test suite/protocol to avoid this
-	const triggeredActions = await ctx.kernel.query(ctx.logContext, ctx.session, {
-		type: 'object',
-		properties: {
-			type: {
-				const: 'triggered-action@1.0.0',
-			},
-			active: {
-				const: true,
-			},
-		},
-	});
-	await Promise.all(
-		triggeredActions.map(async (triggeredAction) => {
-			await ctx.kernel.patchContractBySlug(
-				ctx.logContext,
-				ctx.session,
-				`${triggeredAction.slug}@1.0.0`,
-				[
-					{
-						op: 'replace',
-						path: '/active',
-						value: false,
-					},
-				],
-			);
-		}),
-	);
-	ctx.worker.setTriggers(ctx.logContext, []);
-
 	await testUtils.translateBeforeAll(ctx);
 });
 
