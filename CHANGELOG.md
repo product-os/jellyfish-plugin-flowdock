@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.22 - 2022-06-13
+
+* Update worker to 3.0.11 [Josh Bowling]
+
 ## 5.0.21 - 2022-06-11
 
 * Tests: Replace worker stream references [Josh Bowling]
