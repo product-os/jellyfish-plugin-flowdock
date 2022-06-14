@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use official Postgres image
+      hash: ac491e578402228aeb1a672ed312066b4ddbac0e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.23
+  title: "'Use official Postgres image'"
+  date: 2022-06-14T03:36:06.270Z
+- commits:
     - subject: Update worker to 3.0.11
       hash: ba20022e1930a447f4b5fd25e0d2fef7affac883
       body: ""
