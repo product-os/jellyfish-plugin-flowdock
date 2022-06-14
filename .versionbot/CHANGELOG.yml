@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use standard postgres/redis images
+      hash: 6b824e9dfb004a24067f2f109481259dfe527f8e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 5.0.24
+  title: "'Use standard postgres/redis images'"
+  date: 2022-06-14T08:42:58.980Z
+- commits:
     - subject: Use official Postgres image
       hash: ac491e578402228aeb1a672ed312066b4ddbac0e
       body: ""
