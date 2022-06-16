@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.25 - 2022-06-16
+
+* Update internal packages [Josh Bowling]
+
 ## 5.0.24 - 2022-06-14
 
 * Use standard postgres/redis images [Josh Bowling]
