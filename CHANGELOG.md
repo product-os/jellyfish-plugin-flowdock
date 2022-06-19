@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.28 - 2022-06-19
+
+* Drop @balena/jellyfish-config [Josh Bowling]
+
 ## 5.0.27 - 2022-06-18
 
 * Update postgres/redis images [Josh Bowling]
