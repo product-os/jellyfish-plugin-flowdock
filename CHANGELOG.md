@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.31 - 2022-06-27
+
+* Update dependencies (external v0 minor bumps) [renovate[bot]]
+* Update typedoc from 0.22.17 to 0.22.18 [renovate[bot]]
+
 ## 5.0.30 - 2022-06-21
 
 * Bump dependencies [Josh Bowling]
