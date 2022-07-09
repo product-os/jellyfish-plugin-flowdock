@@ -1,13 +1,12 @@
-import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import path from 'path';
 import { flowdockPlugin } from '../../lib';
+import { environment } from '../../lib/environment';
 import webhooks from './webhooks';
 
-const TOKEN = defaultEnvironment.integration.flowdock;
 let ctx: testUtils.TestContext;
 
 beforeAll(async () => {
@@ -74,7 +73,7 @@ describe('translate', () => {
 						isAuthorized: (request: any) => {
 							return (
 								request.headers.authorization ===
-								`Basic ${Buffer.from(TOKEN.api).toString('base64')}`
+								`Basic ${Buffer.from(environment.api).toString('base64')}`
 							);
 						},
 					},

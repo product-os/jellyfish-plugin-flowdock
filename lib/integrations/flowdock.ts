@@ -5,6 +5,7 @@ import type {
 import * as crypto from 'crypto';
 import _ from 'lodash';
 import LRU from 'lru-cache';
+import { environment } from '../environment';
 
 const FLOWDOCK_USER_CACHE = new LRU(200);
 const SLUG = 'flowdock';
@@ -30,22 +31,13 @@ export class FlowdockIntegration implements Integration {
 	}
 
 	public async translate(event: any): Promise<any> {
-		if (
-			!this.options.token ||
-			!this.options.token.api ||
-			!this.options.token.signature
-		) {
-			return [];
-		}
 		if (!isEventActionable(event)) {
 			return [];
 		}
 
 		const sequence: any[] = [];
 		const headers = {
-			Authorization: `Basic ${Buffer.from(this.options.token.api).toString(
-				'base64',
-			)}`,
+			Authorization: `Basic ${Buffer.from(environment.api).toString('base64')}`,
 		};
 		const adminActorId = await this.context.getActorId({
 			handle: this.options.defaultUser,
@@ -376,14 +368,14 @@ export const flowdockIntegrationDefinition: IntegrationDefinition = {
 	slug: SLUG,
 
 	initialize: async (options) => new FlowdockIntegration(options),
-	isEventValid: (_logContext, token, rawEvent, headers) => {
+	isEventValid: (_logContext, _token, rawEvent, headers) => {
 		const signature = headers['x-flowdock-signature'];
-		if (!signature || !token || !token.signature) {
+		if (!signature || !environment.signature) {
 			return false;
 		}
 
 		const hash = crypto
-			.createHmac('sha1', token.signature)
+			.createHmac('sha1', environment.signature)
 			.update(rawEvent)
 			.digest('hex');
 		return signature === `sha1=${hash}`;
