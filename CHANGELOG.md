@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.45 - 2022-07-15
+
+* Update @balena/jellyfish-plugin-product-os from 7.1.3 to 8.0.0 [renovate[bot]]
+
 ## 5.0.44 - 2022-07-15
 
 * Update @balena/jellyfish-plugin-default from 27.9.3 to 27.10.1 [renovate[bot]]
