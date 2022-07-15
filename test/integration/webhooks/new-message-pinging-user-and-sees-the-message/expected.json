@@ -73,7 +73,8 @@
           "alertsUser": [],
           "mentionsGroup": [],
           "alertsGroup": [],
-          "readBy": ["testbot"]
+          "readBy": ["testbot"],
+          "reactions": {}
         },
         "mirrors": [
           "https://api.flowdock.com/flows/rulemotion/testing/threads/l5s1THMXqKJeCEVrgx-OZNWvLHK/messages/113639"

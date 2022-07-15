@@ -72,7 +72,8 @@
           "mentionsUser": [],
           "alertsUser": [],
           "mentionsGroup": [],
-          "alertsGroup": []
+          "alertsGroup": [],
+          "reactions": {}
         },
         "mirrors": [
           "https://api.flowdock.com/flows/rulemotion/testing/threads/nSMehzMb80GPITK41IOx7CgO_Bk/messages/112880"

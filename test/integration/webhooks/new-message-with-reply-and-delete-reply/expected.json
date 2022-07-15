@@ -72,7 +72,8 @@
           "mentionsUser": [],
           "alertsUser": [],
           "mentionsGroup": [],
-          "alertsGroup": []
+          "alertsGroup": [],
+          "reactions": {}
         },
         "mirrors": [
           "https://api.flowdock.com/flows/rulemotion/testing/threads/nLtFx7m9TTLCyMnhL6PDxrHuFik/messages/113570"
@@ -98,7 +99,8 @@
           "mentionsUser": [],
           "alertsUser": [],
           "mentionsGroup": [],
-          "alertsGroup": []
+          "alertsGroup": [],
+          "reactions": {}
         },
         "mirrors": [
           "https://api.flowdock.com/flows/rulemotion/testing/threads/nLtFx7m9TTLCyMnhL6PDxrHuFik/messages/113572"
