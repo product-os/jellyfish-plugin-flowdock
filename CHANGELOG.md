@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.43 - 2022-07-15
+
+* Update @balena/jellyfish-worker from 31.0.0 to 31.1.1 [renovate[bot]]
+
 ## 5.0.42 - 2022-07-15
 
 * Update translate tests [Josh Bowling]
