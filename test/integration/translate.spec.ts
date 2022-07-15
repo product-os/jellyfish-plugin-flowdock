@@ -1,6 +1,5 @@
 import { defaultEnvironment } from '@balena/jellyfish-environment';
 import { defaultPlugin } from '@balena/jellyfish-plugin-default';
-import { productOsPlugin } from '@balena/jellyfish-plugin-product-os';
 import { testUtils } from '@balena/jellyfish-worker';
 import _ from 'lodash';
 import path from 'path';
@@ -12,7 +11,7 @@ let ctx: testUtils.TestContext;
 
 beforeAll(async () => {
 	ctx = await testUtils.newContext({
-		plugins: [productOsPlugin(), defaultPlugin(), flowdockPlugin()],
+		plugins: [defaultPlugin(), flowdockPlugin()],
 	});
 	await testUtils.translateBeforeAll(ctx);
 });
