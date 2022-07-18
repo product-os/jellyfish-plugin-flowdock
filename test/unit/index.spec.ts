@@ -1,8 +1,7 @@
-import { defaultPlugin } from '@balena/jellyfish-plugin-default';
 import { PluginManager } from '@balena/jellyfish-worker';
 import { flowdockPlugin } from '../../lib';
 
-const pluginManager = new PluginManager([defaultPlugin(), flowdockPlugin()]);
+const pluginManager = new PluginManager([flowdockPlugin()]);
 
 test('Expected integrations are loaded', () => {
 	const integrations = pluginManager.getSyncIntegrations();
