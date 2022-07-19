@@ -13,11 +13,5 @@ export const flowdockPlugin = (): PluginDefinition => {
 		name: 'Flowdock Plugin',
 		version,
 		integrationMap: integrations,
-		requires: [
-			{
-				slug: 'plugin-default',
-				version: '>=22.x',
-			},
-		],
 	};
 };
