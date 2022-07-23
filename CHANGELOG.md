@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.52 - 2022-07-23
+
+* CI: Disable redis persistence [Josh Bowling]
+
 ## 5.0.51 - 2022-07-23
 
 * Update @balena/jellyfish-worker from 31.5.0 to 32.0.5 [renovate[bot]]
