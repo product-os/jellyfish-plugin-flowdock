@@ -6,7 +6,9 @@ import * as crypto from 'crypto';
 import _ from 'lodash';
 import LRU from 'lru-cache';
 
-const FLOWDOCK_USER_CACHE = new LRU(200);
+const FLOWDOCK_USER_CACHE = new LRU({
+	max: 200,
+});
 const SLUG = 'flowdock';
 
 export class FlowdockIntegration implements Integration {
