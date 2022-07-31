@@ -4,6 +4,11 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.61 - 2022-07-31
+
+* Update LRU init [Josh Bowling]
+* Update external-major (external major bumps) [renovate[bot]]
+
 ## 5.0.60 - 2022-07-31
 
 * Update jest monorepo [renovate[bot]]

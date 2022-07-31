@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update LRU init
+      hash: 9a8625b5531b27d09a5f588f35f51c60bafcc659
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+    - subject: Update external-major (external major bumps)
+      hash: 56b36d1148d3ebf9c5a1096f7e49d0e8d3a4a278
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.61
+  title: "'Update external-major (external major bumps) (major)'"
+  date: 2022-07-31T22:50:32.379Z
+- commits:
     - subject: Update jest monorepo
       hash: 2e761c486401e67953068dfdfd1c3f8b3864b9ec
       body: ""
