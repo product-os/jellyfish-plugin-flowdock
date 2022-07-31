@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest monorepo
+      hash: 2e761c486401e67953068dfdfd1c3f8b3864b9ec
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.60
+  title: "'Update jest monorepo'"
+  date: 2022-07-31T11:19:20.357Z
+- commits:
     - subject: Update @balena/jellyfish-environment from 12.3.0 to 12.3.1
       hash: 3506c97d7677474f9a9adc7e2ccd1f8a65e34d78
       body: ""

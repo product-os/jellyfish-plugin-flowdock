@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.60 - 2022-07-31
+
+* Update jest monorepo [renovate[bot]]
+
 ## 5.0.59 - 2022-07-31
 
 * Update @balena/jellyfish-environment from 12.3.0 to 12.3.1 [renovate[bot]]
