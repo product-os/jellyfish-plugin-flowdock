@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.76 - 2022-08-06
+
+* Update lru-cache from 7.13.1 to 7.13.2 [renovate[bot]]
+
 ## 5.0.75 - 2022-08-05
 
 * Update @balena/jellyfish-worker from 32.5.4 to 32.5.5 [renovate[bot]]
