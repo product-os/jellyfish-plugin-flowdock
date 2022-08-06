@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update nock from 13.2.7 to 13.2.9
+      hash: 72e96209247d2dc69c90c749832eefac74932fbb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 5.0.77
+  title: "'Update nock from 13.2.7 to 13.2.9'"
+  date: 2022-08-06T01:07:57.346Z
+- commits:
     - subject: Update lru-cache from 7.13.1 to 7.13.2
       hash: aaf04047ef3d796dcb399a1ff3ca87609b2f1973
       body: ""

@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 5.0.77 - 2022-08-06
+
+* Update nock from 13.2.7 to 13.2.9 [renovate[bot]]
+
 ## 5.0.76 - 2022-08-06
 
 * Update lru-cache from 7.13.1 to 7.13.2 [renovate[bot]]
