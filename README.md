@@ -1,3 +1,5 @@
+**Notice: This library has been deprecated as FLowdock itself has been discontinued.**
+
 # Jellyfish Flowdock Plugin
 
 Provides a sync integration for Flowdock.
