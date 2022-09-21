@@ -1,5 +1,5 @@
 import type { PluginDefinition } from '@balena/jellyfish-worker';
-import { integrations } from './integrations';
+import { contracts } from './contracts';
 
 // tslint:disable-next-line: no-var-requires
 const { version } = require('../package.json');
@@ -12,6 +12,6 @@ export const flowdockPlugin = (): PluginDefinition => {
 		slug: 'plugin-flowdock',
 		name: 'Flowdock Plugin',
 		version,
-		integrationMap: integrations,
+		contracts,
 	};
 };
