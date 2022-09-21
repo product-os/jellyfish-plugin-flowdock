@@ -1,6 +1,4 @@
 type: "node"
 upstream:
-  - repo: "jellyfish-environment"
-    url: "https://github.com/product-os/jellyfish-environment"
   - repo: "jellyfish-worker"
     url: "https://github.com/product-os/jellyfish-worker"
