@@ -3,7 +3,8 @@ import { flowdockPlugin } from '../../lib';
 
 const pluginManager = new PluginManager([flowdockPlugin()]);
 
-test('Expected integrations are loaded', () => {
-	const integrations = pluginManager.getSyncIntegrations();
-	expect(Object.keys(integrations).includes('flowdock')).toBeTruthy();
+test('Expected contracts are loaded', () => {
+	const contracts = pluginManager.getCards();
+	expect(contracts['flowdock-thread'].name).toEqual('Flowdock thread');
+	expect(contracts['flowdock-message'].name).toEqual('Flowdock message');
 });
