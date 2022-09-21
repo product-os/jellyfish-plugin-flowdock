@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.0.0 - 2022-09-21
+
+* Repurpose plugin for Flowdock archive [Josh Bowling]
+
 ## 5.0.85 - 2022-08-15
 
 * Add deprecation notice to readme [Josh Bowling]
