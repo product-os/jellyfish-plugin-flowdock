@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.0.1 - 2022-09-21
+
+* Drop unused .dockerignore file [Josh Bowling]
+
 ## 6.0.0 - 2022-09-21
 
 * Repurpose plugin for Flowdock archive [Josh Bowling]
