@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add CodeQL workflow
+      hash: afbe2133300cfee7733017c9e01f31644780de16
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 6.0.2
+  title: ""
+  date: 2022-09-21T08:48:34.858Z
+- commits:
     - subject: Drop unused .dockerignore file
       hash: e0b686b59bca92e98c7020d4eda83ce577e0b4f4
       body: ""
