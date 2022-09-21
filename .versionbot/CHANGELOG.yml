@@ -1,4 +1,18 @@
 - commits:
+    - subject: Repurpose plugin for Flowdock archive
+      hash: 0c0f47d789dd0bf59d84ef92add11aa158636814
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 6.0.0
+  title: "'Repurpose plugin for Flowdock archive'"
+  date: 2022-09-21T08:22:14.465Z
+- commits:
     - subject: Add deprecation notice to readme
       hash: 071c18a93a84d80d03b6e597951c1b9238caa22a
       body: ""
