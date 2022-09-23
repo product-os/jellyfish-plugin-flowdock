@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.0.3 - 2022-09-23
+
+* Remove unnecessary index [Josh Bowling]
+
 ## 6.0.2 - 2022-09-21
 
 * Add CodeQL workflow [Josh Bowling]
