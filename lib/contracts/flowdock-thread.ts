@@ -11,16 +11,13 @@ export const flowdockThread: ContractDefinition = {
 			type: 'object',
 			properties: {
 				data: {
-					required: ['title', 'id', 'flow'],
+					required: ['title', 'id'],
 					type: 'object',
 					properties: {
 						title: {
 							type: 'string',
 						},
 						id: {
-							type: 'string',
-						},
-						flow: {
 							type: 'string',
 						},
 					},
