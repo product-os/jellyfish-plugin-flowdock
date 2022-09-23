@@ -62,6 +62,5 @@ export const flowdockMessage: ContractDefinition = {
 				},
 			},
 		},
-		indexed_fields: [['data.content']],
 	},
 };
