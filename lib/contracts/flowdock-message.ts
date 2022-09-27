@@ -11,25 +11,10 @@ export const flowdockMessage: ContractDefinition = {
 			type: 'object',
 			properties: {
 				data: {
-					required: [
-						'username',
-						'userFullName',
-						'flowdockUserId',
-						'flowdockUUID',
-						'sent',
-					],
+					required: ['uuid', 'sent'],
 					type: 'object',
 					properties: {
-						flowdockUUID: {
-							type: 'string',
-						},
-						flowdockUserId: {
-							type: 'string',
-						},
-						userFullName: {
-							type: 'string',
-						},
-						username: {
+						uuid: {
 							type: 'string',
 						},
 						content: {
