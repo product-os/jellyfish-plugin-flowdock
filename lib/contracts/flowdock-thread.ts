@@ -11,7 +11,7 @@ export const flowdockThread: ContractDefinition = {
 			type: 'object',
 			properties: {
 				data: {
-					required: ['title', 'id'],
+					required: ['title', 'id', 'urls'],
 					type: 'object',
 					properties: {
 						title: {
@@ -20,10 +20,16 @@ export const flowdockThread: ContractDefinition = {
 						id: {
 							type: 'string',
 						},
+						urls: {
+							type: 'array',
+							items: {
+								type: 'string',
+							},
+						},
 					},
 				},
 			},
 		},
-		indexed_fields: [['data.id']],
+		indexed_fields: [['data.id', 'data.urls']],
 	},
 };
