@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add flowdock flow contract
+      hash: 4e56244e4ef222bbacaea05839c8d28b3d53237b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+      nested: []
+  version: 6.0.4
+  title: ""
+  date: 2022-09-27T02:36:13.131Z
+- commits:
     - subject: Remove unnecessary index
       hash: fcf153c62506ce7ee60eacb63f39f1e7418768d5
       body: ""

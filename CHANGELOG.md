@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.0.4 - 2022-09-27
+
+* Add flowdock flow contract [Amit Solanki]
+
 ## 6.0.3 - 2022-09-23
 
 * Remove unnecessary index [Josh Bowling]
