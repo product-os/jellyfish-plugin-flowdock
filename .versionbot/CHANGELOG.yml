@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add flowdock-user contract
+      hash: 6e39c42f9e8f91d4e9e67dba8f3d33d9ca96a7ac
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+      nested: []
+  version: 6.1.0
+  title: ""
+  date: 2022-09-27T02:44:25.576Z
+- commits:
     - subject: Add flowdock flow contract
       hash: 4e56244e4ef222bbacaea05839c8d28b3d53237b
       body: ""
