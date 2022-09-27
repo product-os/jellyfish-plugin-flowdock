@@ -7,7 +7,7 @@
     "url": "https://github.com/product-os/jellyfish-plugin-flowdock"
   },
   "engines": {
-    "node": "^16.0.0"
+    "node": ">=16.0.0"
   },
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -43,7 +43,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "AGPL-3.0",
   "dependencies": {
-    "@balena/jellyfish-worker": "^33.4.81"
+    "@balena/jellyfish-worker": "^34.1.36"
   },
   "devDependencies": {
     "@balena/lint": "^6.2.0",
