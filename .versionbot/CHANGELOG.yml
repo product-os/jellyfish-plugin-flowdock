@@ -1,4 +1,16 @@
 - commits:
+    - subject: Rely on flowzone for docs publishing
+      hash: 0877de4d1ab31b25cda85bf4530f465e6ed0e6d9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+  version: 6.1.2
+  title: ""
+  date: 2022-09-27T14:42:05.192Z
+- commits:
     - subject: Add Urls to flowdock thread
       hash: 41e6e69ccb46088a96dbf83032dd64ff2b1f82ee
       body: ""

@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.2 - 2022-09-27
+
+* Rely on flowzone for docs publishing [Page-]
+
 ## 6.1.1 - 2022-09-27
 
 * Add Urls to flowdock thread [Amit Solanki]
