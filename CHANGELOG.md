@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.1 - 2022-09-27
+
+* Add Urls to flowdock thread [Amit Solanki]
+
 ## 6.1.0 - 2022-09-27
 
 * Add flowdock-user contract [Amit Solanki]

@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add Urls to flowdock thread
+      hash: 41e6e69ccb46088a96dbf83032dd64ff2b1f82ee
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+      nested: []
+  version: 6.1.1
+  title: ""
+  date: 2022-09-27T08:55:18.945Z
+- commits:
     - subject: Add flowdock-user contract
       hash: 6e39c42f9e8f91d4e9e67dba8f3d33d9ca96a7ac
       body: ""
