@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.4 - 2022-09-28
+
+* Change engines to >=16 to enable node 18 tests/usage [Page-]
+
 ## 6.1.3 - 2022-09-28
 
 * Add view for Flowdock archive data [Josh Bowling]
