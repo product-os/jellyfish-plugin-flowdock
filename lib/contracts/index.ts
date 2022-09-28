@@ -5,6 +5,7 @@ import { flowdockFlow } from './flowdock-flow';
 import { flowdockUser } from './flowdock-user';
 import { relationshipFlowdockMessageIsAttachedToFlowdockThread } from './relationship-flowdock-message-is-attached-to-flowdock-thread';
 import { relationshipFlowdockThreadIsAttachedToFlowdockFlow } from './relationship-flowdock-thread-is-attached-to-flowdock-flow';
+import { viewFlowdockArchives } from './view-flowdock-archives';
 
 export const contracts: ContractDefinition[] = [
 	flowdockFlow,
@@ -13,4 +14,5 @@ export const contracts: ContractDefinition[] = [
 	flowdockUser,
 	relationshipFlowdockMessageIsAttachedToFlowdockThread,
 	relationshipFlowdockThreadIsAttachedToFlowdockFlow,
+	viewFlowdockArchives,
 ];
