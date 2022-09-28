@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.3 - 2022-09-28
+
+* Add view for Flowdock archive data [Josh Bowling]
+
 ## 6.1.2 - 2022-09-27
 
 * Rely on flowzone for docs publishing [Page-]
