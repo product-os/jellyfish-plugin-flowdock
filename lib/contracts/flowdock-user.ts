@@ -4,7 +4,6 @@ export const flowdockUser: ContractDefinition = {
 	slug: 'flowdock-user',
 	type: 'type@1.0.0',
 	name: 'Flowdock user',
-	markers: [],
 	data: {
 		schema: {
 			require: ['data'],
@@ -27,5 +26,6 @@ export const flowdockUser: ContractDefinition = {
 				},
 			},
 		},
+		indexed_fields: [['data.id']],
 	},
 };
