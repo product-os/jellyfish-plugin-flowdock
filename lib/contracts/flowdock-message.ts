@@ -4,7 +4,6 @@ export const flowdockMessage: ContractDefinition = {
 	slug: 'flowdock-message',
 	type: 'type@1.0.0',
 	name: 'Flowdock message',
-	markers: [],
 	data: {
 		schema: {
 			required: ['data'],
@@ -47,5 +46,6 @@ export const flowdockMessage: ContractDefinition = {
 				},
 			},
 		},
+		indexed_fields: [['data.uuid']],
 	},
 };
