@@ -4,7 +4,6 @@ export const flowdockThread: ContractDefinition = {
 	slug: 'flowdock-thread',
 	type: 'type@1.0.0',
 	name: 'Flowdock thread',
-	markers: [],
 	data: {
 		schema: {
 			required: ['data'],
