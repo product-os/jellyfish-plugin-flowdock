@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.6 - 2022-09-29
+
+* Add missing data.uuid index for messages [Josh Bowling]
+
 ## 6.1.5 - 2022-09-29
 
 * Fix flow contract schema [Josh Bowling]
