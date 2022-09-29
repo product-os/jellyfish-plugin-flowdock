@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 6.1.7 - 2022-09-29
+
+* Update user and thread types [Josh Bowling]
+
 ## 6.1.6 - 2022-09-29
 
 * Add missing data.uuid index for messages [Josh Bowling]
