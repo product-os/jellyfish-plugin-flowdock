@@ -1,4 +1,4 @@
-import type { ContractDefinition } from 'autumndb';
+import { ContractDefinition } from 'autumndb';
 
 export const flowdockMessage: ContractDefinition = {
 	slug: 'flowdock-message',
@@ -10,7 +10,7 @@ export const flowdockMessage: ContractDefinition = {
 			type: 'object',
 			properties: {
 				data: {
-					required: ['uuid', 'sent'],
+					required: ['sent', 'user'],
 					type: 'object',
 					properties: {
 						uuid: {
@@ -24,6 +24,9 @@ export const flowdockMessage: ContractDefinition = {
 						sent: {
 							type: 'string',
 							format: 'date-time',
+						},
+						user: {
+							type: 'string',
 						},
 						file: {
 							type: 'object',
@@ -41,6 +44,38 @@ export const flowdockMessage: ContractDefinition = {
 									type: 'string',
 								},
 							},
+						},
+					},
+				},
+			},
+		},
+		uiSchema: {
+			snippet: {
+				created_at: null,
+				updated_at: null,
+				data: {
+					'ui:order': ['content', 'sent'],
+					content: {
+						'ui:title': null,
+					},
+					sent: {
+						'ui:title': null,
+						'ui:options:': {
+							dtFormat: 'MMM do, yyyy HH:mm',
+						},
+					},
+				},
+			},
+			fields: {
+				data: {
+					'ui:order': ['content', 'sent'],
+					content: {
+						'ui:title': null,
+					},
+					sent: {
+						'ui:title': null,
+						'ui:options:': {
+							dtFormat: 'MMM do, yyyy HH:mm',
 						},
 					},
 				},

@@ -9,26 +9,56 @@ export const flowdockThread: ContractDefinition = {
 			required: ['data'],
 			type: 'object',
 			properties: {
+				name: {
+					type: ['string', 'null'],
+					fullTextSearch: true,
+				},
 				data: {
-					required: ['title', 'id', 'urls'],
+					required: ['flow', 'url'],
 					type: 'object',
 					properties: {
-						title: {
-							type: 'string',
-						},
 						id: {
 							type: 'string',
 						},
-						urls: {
-							type: 'array',
-							items: {
-								type: 'string',
-							},
+						flow: {
+							type: 'string',
+						},
+						url: {
+							type: 'string',
+							fullTextSearch: true,
 						},
 					},
 				},
 			},
 		},
-		indexed_fields: [['data.id', 'data.urls']],
+		uiSchema: {
+			snippet: {
+				created_at: null,
+				updated_at: null,
+				data: {
+					'ui:order': ['flow', 'title', 'url'],
+					flow: {
+						'ui:title': null,
+						'ui:widget': 'Badge',
+					},
+					title: {
+						'ui:title': null,
+					},
+				},
+			},
+			fields: {
+				data: {
+					'ui:order': ['flow', 'title', 'url'],
+					flow: {
+						'ui:title': null,
+						'ui:widget': 'Badge',
+					},
+					title: {
+						'ui:title': null,
+					},
+				},
+			},
+		},
+		indexed_fields: [['data.id', 'data.flow', 'data.url']],
 	},
 };
