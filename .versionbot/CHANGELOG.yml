@@ -1,4 +1,18 @@
 - commits:
+    - subject: Various fixes/simplifications
+      hash: 5bd6d9ac7b1f67599a1af6ba884d031927b2fb06
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.0
+  title: ""
+  date: 2022-10-03T06:22:46.707Z
+- commits:
     - subject: Update user and thread types
       hash: 786d6a17a872df8bc81d7f856c7c4ab7907fed90
       body: ""

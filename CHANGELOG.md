@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 7.0.0 - 2022-10-03
+
+* Various fixes/simplifications [Josh Bowling]
+
 ## 6.1.7 - 2022-09-29
 
 * Update user and thread types [Josh Bowling]
