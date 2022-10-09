@@ -1,4 +1,18 @@
 - commits:
+    - subject: "Dev: Use prettier for json/yml"
+      hash: a181140a56375604883444d7963164021c966934
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.1
+  title: ""
+  date: 2022-10-09T00:40:54.154Z
+- commits:
     - subject: Various fixes/simplifications
       hash: 5bd6d9ac7b1f67599a1af6ba884d031927b2fb06
       body: ""

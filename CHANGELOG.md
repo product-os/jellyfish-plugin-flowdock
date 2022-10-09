@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 7.0.1 - 2022-10-09
+
+* Dev: Use prettier for json/yml [Josh Bowling]
+
 ## 7.0.0 - 2022-10-03
 
 * Various fixes/simplifications [Josh Bowling]
