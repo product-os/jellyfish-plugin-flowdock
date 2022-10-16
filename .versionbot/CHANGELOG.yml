@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 34.1.36 to 34.1.67
+      hash: 108c2205061d5d6c71cc1625187d50cde5bc5cf1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 7.0.3
+  title: ""
+  date: 2022-10-16T08:36:00.643Z
+- commits:
     - subject: "CI: Use JSON for Jest config"
       hash: 7183f2025ac39a666eaa391cdef81827c761bba9
       body: ""
