@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest monorepo
+      hash: 901d7168302527242acfd4d2d4f96af84fd3647f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 7.0.7
+  title: ""
+  date: 2022-10-16T14:26:30.797Z
+- commits:
     - subject: Update typescript from 4.8.3 to 4.8.4
       hash: a1ed4f2b29c597f832ba6488d326aee6957a71d1
       body: ""
