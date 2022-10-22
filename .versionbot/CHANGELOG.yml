@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update jest monorepo
+      hash: d3b07a021b90535f78f5fffcdcc696f3bed9be8a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 7.0.24
+  title: ""
+  date: 2022-10-22T08:13:21.543Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 36.0.4 to 36.0.7
       hash: 59cf87aa0de4e9711f65f4e64eca94cc1d4b6a26
       body: ""
