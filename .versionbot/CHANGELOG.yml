@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 36.0.2 to 36.0.3
+      hash: e7ef1f93e1f6f1b482f941ca41a0f43be1f01190
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 7.0.21
+  title: ""
+  date: 2022-10-22T05:32:46.702Z
+- commits:
     - subject: Update simple-git-hooks from 2.8.0 to 2.8.1
       hash: f9c1e98b223bf4920e72f564ba50dcea31a1ccb8
       body: ""
