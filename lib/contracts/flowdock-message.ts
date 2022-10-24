@@ -28,20 +28,26 @@ export const flowdockMessage: ContractDefinition = {
 						user: {
 							type: 'string',
 						},
-						file: {
+						payload: {
 							type: 'object',
+							required: ['file'],
 							properties: {
-								name: {
-									type: 'string',
-								},
-								mime: {
-									type: 'string',
-								},
-								bytesize: {
-									type: 'number',
-								},
-								slug: {
-									type: 'string',
+								file: {
+									type: 'object',
+									properties: {
+										name: {
+											type: 'string',
+										},
+										mime: {
+											type: 'string',
+										},
+										bytesize: {
+											type: 'number',
+										},
+										slug: {
+											type: 'string',
+										},
+									},
 								},
 							},
 						},
