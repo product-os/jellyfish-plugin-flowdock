@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update @balena/jellyfish-worker from 37.0.9 to 37.0.10
+      hash: 7ca7b78f9f746e976172e4f0c907cfed3996b5aa
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: renovate[bot]
+      nested: []
+  version: 7.0.35
+  title: ""
+  date: 2022-10-27T20:19:10.469Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 37.0.8 to 37.0.9
       hash: 90a5d7df48c0f3d03aaf64f8027df2b61e43b909
       body: ""
