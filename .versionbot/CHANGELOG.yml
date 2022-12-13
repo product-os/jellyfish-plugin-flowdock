@@ -1,4 +1,18 @@
 - commits:
+    - subject: "CI: Stop extending renovate config"
+      hash: cc883f77f5ee2891748ceb2e2b9a124bc4a5f6fb
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@monarci.com>
+        signed-off-by: Josh Bowling <josh@monarci.com>
+      author: Josh Bowling
+      nested: []
+  version: 7.0.56
+  title: ""
+  date: 2022-12-13T00:48:01.359Z
+- commits:
     - subject: Update @balena/jellyfish-worker from 37.0.41 to 37.0.45
       hash: a2aeb65d0aecade9b5c28f1a8d2767a210da3a4f
       body: ""

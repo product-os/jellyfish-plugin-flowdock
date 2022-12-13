@@ -4,6 +4,10 @@
 
 ## 1.0.1 - 2021-06-03
 
+## 7.0.56 - 2022-12-13
+
+* CI: Stop extending renovate config [Josh Bowling]
+
 ## 7.0.55 - 2022-11-14
 
 * Update @balena/jellyfish-worker from 37.0.41 to 37.0.45 [renovate[bot]]
